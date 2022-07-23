@@ -1,4 +1,4 @@
-const getGoals = (req,res) => {
+const getGoals = (req,res)=>{
     res.status(200).json({message: 'Get Goals'})
 }
 
