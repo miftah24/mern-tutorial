@@ -8,9 +8,7 @@ const port = process.env.port || 5000
 connectDB()
 
 const app = express()
-app.get('/api/goals',(req,res)=>{
-    res.status(200).json({message: 'Get Goals'})
-})
+
 app.use(express.json())
 app.use(express.urlencoded({ extended: false}))
 
